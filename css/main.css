@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	overflow: hidden;
+}
+
+#paper {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#target {
+	position: absolute;
+	height: 30px;
+	width: 60px;
+	background-color: red;
+	opacity: 0;
+}
+
+.ui-dialog {
+	background-color: white;
+	border: 2px solid black;
+	font-size: 2em;
+	font-family: monospace;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.ui-dialog-titlebar {
+	background-color: black;
+	border-bottom: 1px solid black;
+	color: white;
+	padding: 7px 10px;
+}
+.ui-dialog-title {
+	font-weight: bold;
+}
+.ui-dialog-titlebar-close {
+	color: white;
+	font-weight: bold;
+	float: right;
+	text-decoration: none;
+}
+.ui-dialog-titlebar-close:hover,
+.ui-dialog-titlebar-close:active,{
+	color: white;
+}
+.ui-dialog-content {
+	font-size: 1em;
+	line-height: 120%;
+	padding: 10px;
+}
+.ui-dialog-content em {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 0 5px;
+	text-decoration: none;
+}
